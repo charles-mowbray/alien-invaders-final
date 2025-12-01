@@ -1,0 +1,31 @@
+
+Charles Mowbray
+Section F
+Jank Invaders   
+(SpaceInvaders)
+PROBLEM DESCRIPTION: 
+	My project is to create a semi working space invaders in SFML. The program will have one level with a set amount of enemies and a character for the player to control. 
+The player will be able to shoot down alien space ships 
+which will be shooting back. The player will have one life and when the player shoots down all the spaceships they win.
+ If the player is hit before they’ve defeated the last spaceship then they lose and can restart.
+
+PROGRAM DOCUMENTATION: 
+	If I had more time on my project there are a lot of things that I would change about the program. First when the aliens timer
+to shoot reaches 3 seconds the number of aliens who shoot varies drastically. Even in micro or milliseconds the program refreshes
+incredibly fast and will shoot multiple projectiles. I would look into creating a system which doubles for the players ability to
+shoot as well. Once the first alien shoots then I would put a cool down before the next alien can shoot like 1 second or 0.5 seconds
+that way it doesn’t interfere with the original 3 second timer. I would also use this cooldown on the players ability to shoot. Right
+now if the player holds down the spacebar he just fires a laser at the enemies. I would also want to animate and add more of the different
+invaders along with the animations for those invaders. Also a note is that the players controls are right and left arrows along with the spacebar to shoot.
+I would also make it so that only aliens who are alive can shoot but right now it adds some fun to the mix. 
+
+TESTS:
+	Since it's an interactable game there aren’t really specific test cases you can put in. Just use the spacebar and arrow keys and mash
+away to your heart's content. I also included a timer to record how long you played for in that one specific run and keeps that time for the next run.  
+
+REFLECTIONS:
+	I hadn’t worked much at all with the C++ classes so I struggled mostly with getting a handle on the syntax. But once I understood what
+was going on I breezed through the rest of the project. I also didn’t write as many clean and concise functions as I would have liked to. 
+I kept most of the code in main.cpp and would like to if I did another project use better etiquette for the code. But, this code works and it's
+not too terrible to read because it’s such a short program. It also took me a little while to figure out the chrono library and in another project I
+would try to create a function which could set frame rate. If I had a set frame rate then it would have alleviated a lot of my issues especially early on. 
