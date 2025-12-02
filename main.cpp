@@ -13,8 +13,6 @@ using namespace chrono;
 #include "./Alien.h"
 #include "./Bullet.h"
 
-
-
 int main() {
 
     //starts timer for the game
@@ -27,7 +25,6 @@ int main() {
     //rand for choosing which aliens to shoot
     srand(time(0));
     rand();
-
 
     int inputSeconds;
     int inputMiliseconds;
